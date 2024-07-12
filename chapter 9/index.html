@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My goal</h1>
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li><a href="#html">Learning HTML</a></li>
+          <li><a href="#vacation">Planning a Vacation</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <article id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>This is first web page</p>
+        <section>
+          <img
+            src="img/html_logo_300x300.png"
+            alt="html logo"
+            title="I learn HTML"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>An Example</figcaption>
+            <p><code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></p>
+          </figure>
+        </section>
+
+        <section>
+          <h3>My daily Schedule</h3>
+          <ol>
+            <li>I learn</li>
+            <li>
+              ...I use
+              <abbr title="Mozilla Developer Network"
+                ><a href="https://developer.mozilla.org/">MDN</a></abbr
+              >.
+            </li>
+          </ol>
+
+          <aside>
+            <details>
+              <summary>Guess the <mark>no of hour</mark></summary>
+              <p>
+                I start <time datetime="08:00">8 am</time> and
+                <time datetime="PT3H">3 hours</time>
+              </p>
+            </details>
+          </aside>
+
+          <br />
+
+          <table border="1px">
+            <tr>
+              <th>Time c1</th>
+              <th>Activity c2</th>
+            </tr>
+
+            <tr>
+              <td>r1 c1 djkdjjdj</td>
+              <td>r2 c2</td>
+            </tr>
+            <hr />
+            <tr>
+              <td colspan="3">r2 c1</td>
+            </tr>
+
+            <tr></tr>
+          </table>
+          <br />
+          <table border="1px">
+            <tr>
+              <th rowspan="2">c1</th>
+              <th>c2</th>
+            </tr>
+            <tr>
+              <td>r2 c2</td>
+            </tr>
+          </table>
+
+          <br />
+
+          <table>
+            <tr>
+              <th></th>
+              <th id="c1">c1 head</th>
+              <th id="c1">c2 head</th>
+            </tr>
+            <tr>
+              <th id="r1">r1 head</th>
+              <td headers="c1 r1">c1 r1</td>
+              <td headers="c2 r2">c2 r1</td>
+            </tr>
+            <tr>
+              <th id="r2">r2 head</th>
+              <td>c2 r1</td>
+              <td>c2 r2</td>
+            </tr>
+          </table>
+          <br />
+          <br />
+          <table border="1px">
+            <caption>
+              Table Caption
+            </caption>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th scope="col">c2 Activity</th>
+                <th scope="col">c3 Time</th>
+                <th scope="col">c3 Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">r2 Morning</th>
+                <td>c1 r1</td>
+                <td>c2 r1</td>
+                <td>c3 r1</td>
+              </tr>
+              <tr>
+                <th scope="row">r3 Break</th>
+                <td>
+                  <time datetime="08:00">8am</time>-<time datetime="13:00"
+                    >1pm</time
+                  >
+                </td>
+                <td>c2 r2</td>
+                <td>c2 r2</td>
+              </tr>
+              <tr>
+                <th scope="row">r3 Break</th>
+                <td rowspan="2">c1 r3</td>
+                <td>c2 r3</td>
+                <td>c3 r3</td>
+              </tr>
+              <tr>
+                <th scope="row">r3 Break</th>
+
+                <td>c2 r4</td>
+                <td>c2 r4</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Footer</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <hr />
+
+      <artirticle id="vacation">
+        <h2>I Plan Vacation</h2>
+        <p>sdfds <em>ds</em></p>
+        <p>fdf <abbr title="KKFDS">sd</abbr></p>
+
+        <section>
+          <h3>Place to visit</h3>
+          <ul>
+            <li><p>carr</p></li>
+            <figure>
+              <img
+                src="img/caribbean.jpg"
+                alt="fav"
+                title="I need to go"
+                width="400"
+                height="250"
+              />
+              <figcaption>gateway</figcaption>
+            </figure>
+            <li>
+              <p>therer a ae</p>
+              <address>
+                Margaritaville Island Reserve Riviera Cancún <br />
+                Bahia Petempich Puerto Morelos, Mexico <br />
+                Coloni
+              </address>
+
+              <figure>
+                <img
+                  src="img/vacation.jpg"
+                  alt="vacation"
+                  title="i need to go"
+                  width=""
+                  height=""
+                />
+              </figure>
+              <figcaption>Vacation</figcaption>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Avoided place</h3>
+          <dl>
+            <dt>fd <strong>a!</strong></dt>
+            <dd>dssdsd</dd>
+          </dl>
+        </section>
+      </artirticle>
+
+      <article id="contact">
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Jason"
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="S"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="password"
+                required
+              />
+            </p>
+            <p>
+              <label for="phone">Phone:</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder=""
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+              />
+            </p>
+            <p>
+              <label for="decade">Favorite Decade:</label>
+              <input
+                type="number"
+                id="decade"
+                name="decade"
+                min="1980"
+                max="2020"
+                value="2000"
+                step="10"
+              />
+            </p>
+            <p>
+              <label for="coffee">Favorite coffee:</label>
+              <select name="coffee" id="coffee" multiple size="3">
+                <option value="coffee">coffee</option>
+                <option value="latte">latte</option>
+
+                <optgroup label="Expresso Drink">
+                  <option value="cappuccino">Cappuccino</option>
+                  <option value="americano">Americano</option>
+                </optgroup>
+
+                <optgroup label="others"></optgroup>
+              </select>
+            </p>
+
+            <p>
+              <label for="coffee">Favorite Coffee</label>
+              <input
+                type="text"
+                name="coffee"
+                id="coffee"
+                list="coffee-list"
+                placeholder=""
+                value=""
+              />
+              <datalist id="coffee-list">
+                <option value="coffee">Coffeeee</option>
+                <option value="latte"></option>
+                <option value="espresso"></option>
+                <option value="others"></option>
+              </datalist>
+            </p>
+
+            <!-- <label for="lastName">Last Name:</label>
+          <label for="password">Password:</label>
+          <label for="phone">Phone</label>
+          <label for="decade">Favorite Decade</label>
+          <label for="coffee">Favorite coffee</label>
+          <label for="coffee">Favorite Coffee</label> -->
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Favorite food</legend>
+            <p>
+              <input type="radio" name="food" id="chicken" value="chicken" />
+              <label for="chicken">Chicken</label>
+            </p>
+            <p>
+              <input type="radio" id="mutton" name="food" value="mutton" />
+              <label for="mutton">Mutton</label>
+            </p>
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>pets</legend>
+            <p>
+              <input type="checkbox" name="pets" id="dog" value="dog" />
+              <label for="dog">Dog</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="cat" value="cat" />
+              <label for="cat">Cat</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="others" value="others" />
+              <label for="others">Others</label>
+            </p>
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Send Me a Note</legend>
+            <label for="message">Your Message:</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="40"
+              rows="10"
+              placeholder="Type your message here"
+            ></textarea>
+          </fieldset>
+
+          <br />
+
+          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Post
+          </button>
+
+          <button type="reset">Reset</button>
+        </form>
+      </article>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>&lt;&lt;&lt; &copy; <a href="about.html">Suje </a>&gt;&gt;&gt;</p>
+      <p><a href="#">Back to Top</a></p>
+    </footer>
+  </body>
+</html>
